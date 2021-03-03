@@ -5,7 +5,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Freelancer - Start Bootstrap Theme</title>
+        <!-- 수정 마지막에 제거해야함 -->
+        <meta http-equiv="Compatible" content="no-cache"/>
+        <title>Juhee's Portfolio</title>
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
         <!-- Font Awesome icons (free version)-->
@@ -14,22 +16,23 @@
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
+        <link href="css/styles.css?ver=2" rel="stylesheet" />
     </head>
     <body id="page-top">
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
             <div class="container">
-                <a class="navbar-brand js-scroll-trigger" href="#page-top">Start Bootstrap</a>
+                <a class="navbar-brand js-scroll-trigger" href="#page-top">Juhee's Portfolio</a>
                 <button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     Menu
                     <i class="fas fa-bars"></i>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto">
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Portfolio</a></li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">About</a></li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Contact</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#introduction">Introduction</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#history">History</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#skills">Skills</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#project">Project</a></li>
                     </ul>
                 </div>
             </div>
@@ -40,22 +43,195 @@
                 <!-- Masthead Avatar Image-->
                 <img class="masthead-avatar mb-5" src="assets/img/avataaars.svg" alt="" />
                 <!-- Masthead Heading-->
-                <h1 class="masthead-heading text-uppercase mb-0">Start Bootstrap</h1>
-                <!-- Icon Divider-->
+                <h1 class="masthead-heading text-uppercase mb-0">Juhee's Portfolio</h1>
+                <!-- Masthead Subheading-->
                 <div class="divider-custom divider-light">
+                    <p class="masthead-subheading font-weight-light mb-0">Front-end Developer</p>
+                </div>
+            </div>
+        </header>
+        <!-- Introduction Section-->
+        <section class="page-section introduction" id="introduction">
+            <div class="container">
+                <!-- Introduction Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Introduction</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom">
                     <div class="divider-custom-line"></div>
                     <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
                     <div class="divider-custom-line"></div>
                 </div>
-                <!-- Masthead Subheading-->
-                <p class="masthead-subheading font-weight-light mb-0">Graphic Artist - Web Designer - Illustrator</p>
+                <!-- Introduction Grid Items-->
+                <div class="row justify-content-center">
+                    <!-- Introduction Item 1-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/cabin.png" alt="" />
+                        </div>
+                    </div>
+                    <!-- Introduction Item 2-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal2">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/cake.png" alt="" />
+                        </div>
+                    </div>
+                    <!-- Introduction Item 3-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal3">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/circus.png" alt="" />
+                        </div>
+                    </div>
+                    <!-- Introduction Item 4-->
+                    <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal4">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/game.png" alt="" />
+                        </div>
+                    </div>
+                    <!-- Introduction Item 5-->
+                    <div class="col-md-6 col-lg-4 mb-5 mb-md-0">
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal5">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/safe.png" alt="" />
+                        </div>
+                    </div>
+                    <!-- Introduction Item 6-->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal6">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/submarine.png" alt="" />
+                        </div>
+                    </div>
+                </div>
             </div>
-        </header>
-        <!-- Portfolio Section-->
-        <section class="page-section portfolio" id="portfolio">
+        </section>
+        <section class="page-section bg-primary text-white mb-0" id="history">
             <div class="container">
-                <!-- Portfolio Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Portfolio</h2>
+                <!-- History Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-white">History</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom divider-light">
+                    <div class="divider-custom-line text-white"></div>
+                    <div class="divider-custom-icon text-white"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line text-white"></div>
+                </div>
+                <!-- Portfolio Grid Items-->
+                <div class="introduction justify-content-center">
+                    <h2 class="education introduction-title">🏫Education</h2>
+                    <h3 class="introduction-title">경기대학교 컴퓨터공학부 (2021.02 졸업)</h3>
+                    <h3 class="introduction-title">정발고등학교 (2016.02 졸업)</h3>
+                    <h2 class="career introduction-title">👩‍💼Career</h2>
+                    <h3 class="introduction-title">푸른정보통신 인턴 (2019.01~2019.02)</h3>
+                    <h3 class="introduction-title">유안타증권 인턴 (2018.06~2018.08)</h3>
+                </div>
+            </div>
+        </section>
+        <!-- Skills Section-->
+        <section class="page-section skills" id="skills">
+            <div class="container">
+                <!-- Skills Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Skills</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom">
+                    <div class="skills-description text-gray"><h4>I can use these</h4></div>
+                </div>
+                <!-- Skills Grid Items-->
+                <div class="row justify-content-center">
+                    <!-- Skills Item 1-->
+                    <div class="skill-top-area col-md-skills mb-md-0">
+                        <div class="skill-item">
+                            <img class="img-fluid" src="assets/img/skills/javascript.png" alt="javascript" />
+                        </div>
+                        <div class="skill-item-caption-content text-center text-gray">
+                            <h5>JavaScript</h5>
+                        </div>
+                    </div>
+                    <!-- Skills Item 2-->
+                    <div class="col-md-skills mb-md-0">
+                        <div class="skill-item">
+                            <img class="img-fluid" src="assets/img/skills/html5.png" alt="html" />
+                        </div>
+                        <div class="skill-item-caption-content text-center text-gray">
+                            <h5>HTML</h5>
+                        </div>
+                    </div>
+                    <!-- Skills Item 3-->
+                    <div class="col-md-skills mb-md-0">
+                        <div class="skill-item">
+                            <img class="img-fluid" src="assets/img/skills/css.png" alt="css" />
+                        </div>
+                        <div class="skill-item-caption-content text-center text-gray">
+                            <h5>CSS</h5>
+                        </div>
+                    </div>
+                    <!-- Skills Item 4-->
+                    <div class="skill-top-area col-md-skills mb-md-0">
+                        <div class="skill-item">
+                            <img class="img-fluid" src="assets/img/skills/sass.png" alt="sass" />
+                        </div>
+                        <div class="skill-item-caption-content text-center text-gray">
+                            <h5>Sass</h5>
+                        </div>
+                    </div>
+                    <!-- Skills Item 5-->
+                    <div class="skill-bottom-area col-md-skills mb-md-0">
+                        <div class="skill-item">
+                            <img class="img-fluid" src="assets/img/skills/react.png" alt="react_js" />
+                        </div>
+                        <div class="skill-item-caption-content text-center text-gray">
+                            <h5>React.js</h5>
+                        </div>
+                    </div>
+                    <!-- Skills Item 6-->
+                    <div class="skill-bottom-area col-md-skills mb-md-0">
+                        <div class="skill-item">
+                            <img class="img-fluid" src="assets/img/skills/react.png" alt="react_native" />
+                        </div>
+                        <div class="skill-item-caption-content text-center text-gray">
+                            <h5>React Native</h5>
+                        </div>
+                    </div>
+                    <!-- Skills Item 7-->
+                    <div class="skill-bottom-area col-md-skills mb-md-0">
+                        <div class="skill-item">
+                            <img class="img-fluid" src="assets/img/skills/mysql.png" alt="mysql" />
+                        </div>
+                        <div class="skill-item-caption-content text-center text-gray">
+                            <h5>MySQL</h5>
+                        </div>
+                    </div>
+                    <!-- Skills Item 8-->
+                    <div class="col-md-skills mb-md-0">
+                        <div class="skill-item">
+                            <img class="img-fluid" src="assets/img/skills/java.png" alt="java" />
+                        </div>
+                        <div class="skill-item-caption-content text-center text-gray">
+                            <h5>Java</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Project Section-->
+        <section class="page-section" id="project">
+            <div class="container">
+                <!-- Project Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Project</h2>
                 <!-- Icon Divider-->
                 <div class="divider-custom">
                     <div class="divider-custom-line"></div>
@@ -90,110 +266,6 @@
                             </div>
                             <img class="img-fluid" src="assets/img/portfolio/circus.png" alt="" />
                         </div>
-                    </div>
-                    <!-- Portfolio Item 4-->
-                    <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal4">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/game.png" alt="" />
-                        </div>
-                    </div>
-                    <!-- Portfolio Item 5-->
-                    <div class="col-md-6 col-lg-4 mb-5 mb-md-0">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal5">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/safe.png" alt="" />
-                        </div>
-                    </div>
-                    <!-- Portfolio Item 6-->
-                    <div class="col-md-6 col-lg-4">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal6">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/submarine.png" alt="" />
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- About Section-->
-        <section class="page-section bg-primary text-white mb-0" id="about">
-            <div class="container">
-                <!-- About Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase text-white">About</h2>
-                <!-- Icon Divider-->
-                <div class="divider-custom divider-light">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                    <div class="divider-custom-line"></div>
-                </div>
-                <!-- About Section Content-->
-                <div class="row">
-                    <div class="col-lg-4 ml-auto"><p class="lead">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</p></div>
-                    <div class="col-lg-4 mr-auto"><p class="lead">You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</p></div>
-                </div>
-                <!-- About Section Button-->
-                <div class="text-center mt-4">
-                    <a class="btn btn-xl btn-outline-light" href="https://startbootstrap.com/theme/freelancer/">
-                        <i class="fas fa-download mr-2"></i>
-                        Free Download!
-                    </a>
-                </div>
-            </div>
-        </section>
-        <!-- Contact Section-->
-        <section class="page-section" id="contact">
-            <div class="container">
-                <!-- Contact Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Contact Me</h2>
-                <!-- Icon Divider-->
-                <div class="divider-custom">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                    <div class="divider-custom-line"></div>
-                </div>
-                <!-- Contact Section Form-->
-                <div class="row">
-                    <div class="col-lg-8 mx-auto">
-                        <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19.-->
-                        <form id="contactForm" name="sentMessage" novalidate="novalidate">
-                            <div class="control-group">
-                                <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                                    <label>Name</label>
-                                    <input class="form-control" id="name" type="text" placeholder="Name" required="required" data-validation-required-message="Please enter your name." />
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                            </div>
-                            <div class="control-group">
-                                <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                                    <label>Email Address</label>
-                                    <input class="form-control" id="email" type="email" placeholder="Email Address" required="required" data-validation-required-message="Please enter your email address." />
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                            </div>
-                            <div class="control-group">
-                                <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                                    <label>Phone Number</label>
-                                    <input class="form-control" id="phone" type="tel" placeholder="Phone Number" required="required" data-validation-required-message="Please enter your phone number." />
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                            </div>
-                            <div class="control-group">
-                                <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                                    <label>Message</label>
-                                    <textarea class="form-control" id="message" rows="5" placeholder="Message" required="required" data-validation-required-message="Please enter a message."></textarea>
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                            </div>
-                            <br />
-                            <div id="success"></div>
-                            <div class="form-group"><button class="btn btn-primary btn-xl" id="sendMessageButton" type="submit">Send</button></div>
-                        </form>
                     </div>
                 </div>
             </div>
