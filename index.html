@@ -29,8 +29,7 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto">
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#introduction">Introduction</a></li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#history">History</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#profile">Profile</a></li>
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#skills">Skills</a></li>
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#project">Project</a></li>
                     </ul>
@@ -40,104 +39,79 @@
         <!-- Masthead-->
         <header class="masthead bg-primary text-white text-center">
             <div class="container d-flex align-items-center flex-column">
-                <!-- Masthead Avatar Image-->
-                <img class="masthead-avatar mb-5" src="assets/img/avataaars.svg" alt="" />
+                <div class="divider-custom big"></div>
                 <!-- Masthead Heading-->
                 <h1 class="masthead-heading text-uppercase mb-0">Juhee's Portfolio</h1>
                 <!-- Masthead Subheading-->
                 <div class="divider-custom divider-light">
                     <p class="masthead-subheading font-weight-light mb-0">Front-end Developer</p>
                 </div>
+                <div class="divider-custom big"></div>
             </div>
         </header>
         <!-- Introduction Section-->
-        <section class="page-section introduction" id="introduction">
+        <section class="page-section profile" id="profile">
             <div class="container">
                 <!-- Introduction Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Introduction</h2>
-                <!-- Icon Divider-->
-                <div class="divider-custom">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                    <div class="divider-custom-line"></div>
-                </div>
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Profile</h2>
+                <div class="profile-divider big"></div>
                 <!-- Introduction Grid Items-->
-                <div class="row justify-content-center">
-                    <!-- Introduction Item 1-->
-                    <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                <div class="row text-gray">
+                    <div class="col-lg-4 ml-auto">
+                        <span class="profile-name-ko font-weight-bold">서주희</span>
+                        <span class="profile-name-en text-lightgray font-weight-bold">SEO JUHEE</span>
+                        <div class="profile-divider"></div>
+                        <div class="profile-contact">
+                            <i class="fas fa-phone fa-2x"></i>
+                            <div class="profile-contact-contents">
+                                <a href="tel:010-4640-6319">010-4640-6319</a>
                             </div>
-                            <img class="img-fluid" src="assets/img/portfolio/cabin.png" alt="" />
                         </div>
+                        <div class="profile-contact">
+                            <i class="far fa-envelope fa-2x"></i>
+                            <div class="profile-contact-contents">
+                                <a href="mailto:sjuhee9712@gmail.com">sjuhee9712@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="profile-contact">
+                            <i class="fab fa-github fa-2x"></i>
+                            <div class="profile-contact-contents">
+                                <a href="https://github.com/maywngml">https://github.com/maywngml</a>
+                            </div>
+                        </div>
+                        <div class="profile-divider middle"></div>
+                        <h4>Introduce</h4>
+                        <span class="profile-introduce-contents">배우는 것을 좋아하고 노력하는 것이 습관이 되어 있습니다.
+                            다양한 기술과 환경을 접하는 것에 익숙하고 새로운 환경에 적응하는 것을 두려워하지 않습니다.</span>
+                        <br />
                     </div>
-                    <!-- Introduction Item 2-->
-                    <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal2">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/cake.png" alt="" />
-                        </div>
-                    </div>
-                    <!-- Introduction Item 3-->
-                    <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal3">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/circus.png" alt="" />
-                        </div>
-                    </div>
-                    <!-- Introduction Item 4-->
-                    <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal4">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/game.png" alt="" />
-                        </div>
-                    </div>
-                    <!-- Introduction Item 5-->
-                    <div class="col-md-6 col-lg-4 mb-5 mb-md-0">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal5">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/safe.png" alt="" />
-                        </div>
-                    </div>
-                    <!-- Introduction Item 6-->
-                    <div class="col-md-6 col-lg-4">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal6">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/submarine.png" alt="" />
-                        </div>
+                    <div class="col-lg-4 mr-auto">
+                        <div class="profile-divider small"></div>
+                        <h4>Education</h4>
+                        <span class="profile-introduce-contents ">경기대학교 컴퓨터공학부</span>
+                        <span class="profile-introduce-description text-lightgray">(2021.02 졸업)</span>
+                        <br />
+                        <span class="profile-introduce-contents ">정발고등학교</span>
+                        <span class="profile-introduce-description text-lightgray">(2016.02 졸업)</span>
+                        <div class="profile-divider"></div>
+                        <h4>Work Experience</h4>
+                        <span class="profile-introduce-contents ">푸른정보통신 인턴</span>
+                        <span class="profile-introduce-description text-lightgray">(2019.01 ~ 2019.02)</span>
+                        <br />
+                        <span class="profile-introduce-contents ">유안타증권 인턴</span>
+                        <span class="profile-introduce-description text-lightgray">(2018.06 ~ 2018.08)</span>
+                        <div class="profile-divider"></div>
+                        <h4>Certificate</h4>
+                        <span class="profile-introduce-contents ">OPIC IM2</span>
+                        <span class="profile-introduce-description text-lightgray">(2020.04)</span>
+                        <br />
+                        <span class="profile-introduce-contents ">TOEIC 850</span>
+                        <span class="profile-introduce-description text-lightgray">(2019.10)</span>
+                        <br />
+                        <span class="profile-introduce-contents ">정보처리기사</span>
+                        <span class="profile-introduce-description text-lightgray">(2019.08)</span>
                     </div>
                 </div>
-            </div>
-        </section>
-        <section class="page-section bg-primary text-white mb-0" id="history">
-            <div class="container">
-                <!-- History Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase text-white">History</h2>
-                <!-- Icon Divider-->
-                <div class="divider-custom divider-light">
-                    <div class="divider-custom-line text-white"></div>
-                    <div class="divider-custom-icon text-white"><i class="fas fa-star"></i></div>
-                    <div class="divider-custom-line text-white"></div>
-                </div>
-                <!-- Portfolio Grid Items-->
-                <div class="introduction justify-content-center">
-                    <h2 class="education introduction-title">🏫Education</h2>
-                    <h3 class="introduction-title">경기대학교 컴퓨터공학부 (2021.02 졸업)</h3>
-                    <h3 class="introduction-title">정발고등학교 (2016.02 졸업)</h3>
-                    <h2 class="career introduction-title">👩‍💼Career</h2>
-                    <h3 class="introduction-title">푸른정보통신 인턴 (2019.01~2019.02)</h3>
-                    <h3 class="introduction-title">유안타증권 인턴 (2018.06~2018.08)</h3>
                 </div>
             </div>
         </section>
@@ -233,79 +207,62 @@
                 <!-- Project Section Heading-->
                 <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Project</h2>
                 <!-- Icon Divider-->
-                <div class="divider-custom">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                    <div class="divider-custom-line"></div>
+                <div class="divider-custom small">
                 </div>
                 <!-- Portfolio Grid Items-->
                 <div class="row justify-content-center">
                     <!-- Portfolio Item 1-->
                     <div class="col-md-6 col-lg-4 mb-5">
                         <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            <div class="portfolio-item-caption-content text-center text-gray">
+                                <h4>S-STT</h4>
                             </div>
-                            <img class="img-fluid" src="assets/img/portfolio/cabin.png" alt="" />
+                            <div class="portfolio-icon text-center">
+                            <img class="img-project" src="assets/img/portfolio/s-stt.png" alt="s-stt" />
+                            </div>
+                            <div class="portfolio-item-caption-content text-center text-gray">
+                                <h5>음성파일을 텍스트로 변환하고
+                                <br /> 요약해주는 웹사이트</h5>
+                            </div>
                         </div>
                     </div>
                     <!-- Portfolio Item 2-->
                     <div class="col-md-6 col-lg-4 mb-5">
                         <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal2">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            <div class="portfolio-item-caption-content text-center text-gray">
+                                <h4>Planty</h4>
                             </div>
-                            <img class="img-fluid" src="assets/img/portfolio/cake.png" alt="" />
+                            <div class="portfolio-icon text-center">
+                            <img class="img-project" src="assets/img/portfolio/planty.png" alt="planty" />
+                            </div>
+                            <div class="portfolio-item-caption-content text-center text-gray">
+                                <h5>사용자의 일정과 할일을 관리하는
+                                <br /> 달력 모바일 애플리케이션</h5>
+                            </div>
                         </div>
                     </div>
                     <!-- Portfolio Item 3-->
                     <div class="col-md-6 col-lg-4 mb-5">
                         <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal3">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            <div class="portfolio-item-caption-content text-center text-gray">
+                                <h4>WowU</h4>
                             </div>
-                            <img class="img-fluid" src="assets/img/portfolio/circus.png" alt="" />
+                            <div class="portfolio-icon text-center">
+                            <img class="img-project" src="assets/img/portfolio/wowu.png" alt="wowu" />
+                            </div>
+                            <div class="portfolio-item-caption-content text-center text-gray">
+                                <h5>실시간 가이드라인을 통해 
+                                <br />사용자의 운동자세를 교정해주는 
+                                <br />모바일 애플리케이션</h5></div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- Footer-->
-        <footer class="footer text-center">
-            <div class="container">
-                <div class="row">
-                    <!-- Footer Location-->
-                    <div class="col-lg-4 mb-5 mb-lg-0">
-                        <h4 class="text-uppercase mb-4">Location</h4>
-                        <p class="lead mb-0">
-                            2215 John Daniel Drive
-                            <br />
-                            Clark, MO 65243
-                        </p>
-                    </div>
-                    <!-- Footer Social Icons-->
-                    <div class="col-lg-4 mb-5 mb-lg-0">
-                        <h4 class="text-uppercase mb-4">Around the Web</h4>
-                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-facebook-f"></i></a>
-                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-twitter"></i></a>
-                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-linkedin-in"></i></a>
-                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-dribbble"></i></a>
-                    </div>
-                    <!-- Footer About Text-->
-                    <div class="col-lg-4">
-                        <h4 class="text-uppercase mb-4">About Freelancer</h4>
-                        <p class="lead mb-0">
-                            Freelance is a free to use, MIT licensed Bootstrap theme created by
-                            <a href="http://startbootstrap.com">Start Bootstrap</a>
-                            .
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </footer>
         <!-- Copyright Section-->
         <div class="copyright py-4 text-center text-white">
-            <div class="container"><small>Copyright © Your Website 2020</small></div>
+            <div class="container"><small>Copyright © Your Website 2021</small></div>
         </div>
         <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes)-->
         <div class="scroll-to-top d-lg-none position-fixed">
@@ -319,26 +276,60 @@
                     <button class="close" type="button" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true"><i class="fas fa-times"></i></span>
                     </button>
-                    <div class="modal-body text-center">
+                    <div class="modal-body">
                         <div class="container">
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
                                     <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal1Label">Log Cabin</h2>
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                        <div class="divider-custom-line"></div>
+                                    <div class="text-center">
+                                        <h3 class="portfolio-modal-title text-secondary mb-0" id="portfolioModal1Label">S-STT</h3>
+                                        <!-- Portfolio Modal - Image-->
+                                        <img class="img-modal-project rounded mb-5" src="assets/img/portfolio/s-stt.png" alt="modal_s_stt" />
                                     </div>
-                                    <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/cabin.png" alt="" />
                                     <!-- Portfolio Modal - Text-->
-                                    <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                                    <button class="btn btn-primary" data-dismiss="modal">
-                                        <i class="fas fa-times fa-fw"></i>
-                                        Close Window
-                                    </button>
+                                    <div class="row">
+                                        <div class="col-lg-modal">
+                                            <h5 class="project-description-title">🕑개발기간</h5>
+                                            <span> 2021.01 ~ 2021.02</span>
+                                            <h5 class="project-description-title">👩‍💻개발인원</h5>
+                                            <span> 프론트엔드 1, 백엔드 1, AI 1</span>
+                                            <h5 class="project-description-title">💻기술스택</h5>
+                                            <span> React.js, Scss, Spring, MySQL, AWS,</span>
+                                            <br />
+                                            <span>Keras, Docker, K-means</span>
+                                            <h5 class="project-description-title">📖담당역할</h5>
+                                            <span> UI 설계도를 바탕으로 프론트엔드 구현</span>
+                                        </div>
+                                        <div class="col-lg-modal">
+                                            <h5 class="project-description-title">✍️노력과정</h5>
+                                            <ol>
+                                                <li>프로젝트를 체계적으로 관리한다.</li>
+                                                    <ul>
+                                                        <li>notion에 구현기능목록과 개발과정을 정리하여 공유</li>
+                                                        <li>GitHub의 Organization을 활용해 개발 진행상황 점검</li>
+                                                    </ul>
+                                                <li>SPA(Single Page Application)를 구현한다.</li>
+                                                    <ul>
+                                                        <li>react-router-dom의 Route와 Link를 활용하여 코드 작성</li>
+                                                    </ul>
+                                                <li>컴포넌트의 리렌더링을 최소화한다.</li>
+                                                    <ul>
+                                                        <li>컴포넌트를 최대한 세분화</li>
+                                                        <li>Context API 사용 시 state를 비슷한 속성별로 분류</li>
+                                                    </ul>
+                                                <li>코드의 중복을 최소화한다.</li>
+                                                    <ul>
+                                                        <li>Custom Hook 생성하여 활용</li>
+                                                    </ul>
+                                            </ol>
+                                        </div>
+                                    </div>
+                                    <div class="text-center">
+                                        <button class="btn btn-primary text-center mt-2" data-dismiss="modal">
+                                            <i class="fas fa-times fa-fw"></i>
+                                            Close Window
+                                        </button>
+                                    </div> 
                                 </div>
                             </div>
                         </div>
@@ -353,26 +344,50 @@
                     <button class="close" type="button" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true"><i class="fas fa-times"></i></span>
                     </button>
-                    <div class="modal-body text-center">
+                    <div class="modal-body">
                         <div class="container">
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
                                     <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal2Label">Tasty Cake</h2>
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                        <div class="divider-custom-line"></div>
+                                    <div class="text-center">
+                                        <h3 class="portfolio-modal-title text-secondary mb-0" id="portfolioModal2Label">Planty</h3>
+                                        <!-- Portfolio Modal - Image-->
+                                        <iframe class="project-video" width="560" height="315" src="https://www.youtube.com/embed/617o-Lu00dg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                     </div>
-                                    <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/cake.png" alt="" />
                                     <!-- Portfolio Modal - Text-->
-                                    <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                                    <button class="btn btn-primary" data-dismiss="modal">
-                                        <i class="fas fa-times fa-fw"></i>
-                                        Close Window
-                                    </button>
+                                    <div class="row">
+                                        <div class="col-lg-modal">
+                                            <h5 class="project-description-title">🕑개발기간</h5>
+                                            <span> 2020.03 ~ 2020.08</span>
+                                            <h5 class="project-description-title">👩‍💻개발인원</h5>
+                                            <span> 프론트엔드 1, 백엔드 1</span>
+                                            <h5 class="project-description-title">💻기술스택</h5>
+                                            <span> React Native, AWS API gateway, Lambda, DynamoDB, </span>
+                                            <span> amplify, React-Native-Calendars </span>
+                                            <h5 class="project-description-title">📖담당역할</h5>
+                                            <span> UI/UX 기획 및 화면 구현</span>
+                                        </div>
+                                        <div class="col-lg-modal">
+                                            <h5 class="project-description-title">✍️노력과정</h5>
+                                            <ol>
+                                                <li>기존의 달력 모듈을 화면설계서 형태의 달력UI로 수정</li>
+                                                    <ul>
+                                                        <li>npm 모듈 수정을 통해 여러 형태로 구현</li>
+                                                    </ul>
+                                                <li>사용자의 편의를 고려하며 개발을 진행한다.</li>
+                                                    <ul>
+                                                        <li>년/월 선택 달력과 메인 달력의 날짜 마킹 동기화</li>
+                                                        <li>마킹된 날짜는 일정/할일 생성 컴포넌트 렌더링 시 전달</li>
+                                                    </ul>
+                                            </ol>
+                                        </div>
+                                    </div>
+                                    <div class="text-center">
+                                        <button class="btn btn-primary text-center mt-2" data-dismiss="modal">
+                                            <i class="fas fa-times fa-fw"></i>
+                                            Close Window
+                                        </button>
+                                    </div> 
                                 </div>
                             </div>
                         </div>
@@ -387,128 +402,50 @@
                     <button class="close" type="button" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true"><i class="fas fa-times"></i></span>
                     </button>
-                    <div class="modal-body text-center">
+                    <div class="modal-body">
                         <div class="container">
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
                                     <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal3Label">Circus Tent</h2>
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                        <div class="divider-custom-line"></div>
+                                    <div class="text-center">
+                                        <h3 class="portfolio-modal-title text-secondary mb-0" id="portfolioModal3Label">WowU</h3>
+                                        <!-- Portfolio Modal - Image-->
+                                        <iframe class="project-video" width="560" height="315" src="https://www.youtube.com/embed/Z5xfsuXdUuQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                     </div>
-                                    <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/circus.png" alt="" />
                                     <!-- Portfolio Modal - Text-->
-                                    <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                                    <button class="btn btn-primary" data-dismiss="modal">
-                                        <i class="fas fa-times fa-fw"></i>
-                                        Close Window
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Portfolio Modal 4-->
-        <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-labelledby="portfolioModal4Label" aria-hidden="true">
-            <div class="modal-dialog modal-xl" role="document">
-                <div class="modal-content">
-                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true"><i class="fas fa-times"></i></span>
-                    </button>
-                    <div class="modal-body text-center">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal4Label">Controller</h2>
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                        <div class="divider-custom-line"></div>
+                                    <div class="row">
+                                        <div class="col-lg-modal">
+                                            <h5 class="project-description-title">🕑개발기간</h5>
+                                            <span> 2019.03 ~ 2019.06</span>
+                                            <h5 class="project-description-title">👩‍💻개발인원</h5>
+                                            <span> 안드로이드 3, 서버 2</span>
+                                            <h5 class="project-description-title">💻기술스택</h5>
+                                            <span> Android, Firebase, PoseEstimation, Java</span>
+                                            <h5 class="project-description-title">📖담당역할</h5>
+                                            <span> 사용자 관리 기능 및 게시판, 메인 화면 구현</span>
+                                        </div>
+                                        <div class="col-lg-modal">
+                                            <h5 class="project-description-title">✍️노력과정</h5>
+                                            <ol>
+                                                <li>편의성이 높은 게시판을 구현한다.</li>
+                                                    <ul>
+                                                        <li>직관적인 UI 설계 및 구현</li>
+                                                        <li>게시글 관리가 용이하도록 작성글, 베스트글 관리 기능 추가</li>
+                                                    </ul>
+                                                <li>활용도가 높은 운동 화면을 구현한다.</li>
+                                                    <ul>
+                                                        <li>OpenCV 라이브러리를 안드로이드에 적용해 카메라 실행</li>
+                                                        <li>TTS를 활용해 모든 운동 과정을 음성으로 안내</li>
+                                                    </ul>
+                                            </ol>
+                                        </div>
                                     </div>
-                                    <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/game.png" alt="" />
-                                    <!-- Portfolio Modal - Text-->
-                                    <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                                    <button class="btn btn-primary" data-dismiss="modal">
-                                        <i class="fas fa-times fa-fw"></i>
-                                        Close Window
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Portfolio Modal 5-->
-        <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-labelledby="portfolioModal5Label" aria-hidden="true">
-            <div class="modal-dialog modal-xl" role="document">
-                <div class="modal-content">
-                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true"><i class="fas fa-times"></i></span>
-                    </button>
-                    <div class="modal-body text-center">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal5Label">Locked Safe</h2>
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/safe.png" alt="" />
-                                    <!-- Portfolio Modal - Text-->
-                                    <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                                    <button class="btn btn-primary" data-dismiss="modal">
-                                        <i class="fas fa-times fa-fw"></i>
-                                        Close Window
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Portfolio Modal 6-->
-        <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-labelledby="portfolioModal6Label" aria-hidden="true">
-            <div class="modal-dialog modal-xl" role="document">
-                <div class="modal-content">
-                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true"><i class="fas fa-times"></i></span>
-                    </button>
-                    <div class="modal-body text-center">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal6Label">Submarine</h2>
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/submarine.png" alt="" />
-                                    <!-- Portfolio Modal - Text-->
-                                    <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                                    <button class="btn btn-primary" data-dismiss="modal">
-                                        <i class="fas fa-times fa-fw"></i>
-                                        Close Window
-                                    </button>
+                                    <div class="text-center">
+                                        <button class="btn btn-primary text-center mt-2" data-dismiss="modal">
+                                            <i class="fas fa-times fa-fw"></i>
+                                            Close Window
+                                        </button>
+                                    </div> 
                                 </div>
                             </div>
                         </div>

@@ -661,6 +661,7 @@ pre code {
 .col-lg-3,
 .col-lg-2,
 .col-lg-1,
+.col-lg-modal,
 .col-md,
 .col-md-auto,
 .col-md-12,
@@ -1449,6 +1450,11 @@ pre code {
 	.col-lg-12 {
 		flex: 0 0 100%;
 		max-width: 100%;
+	}
+
+	.col-lg-modal {
+		flex: 0 0 50%;
+		max-width: 50%;
 	}
 
 	.order-lg-first {
@@ -10134,6 +10140,10 @@ button.bg-dark:focus {
 	color: #495057 !important;
 }
 
+.text-lightgray {
+	color: #868e96 !important;
+}
+
 .text-primary {
 	color: #9775fa !important;
 }
@@ -10367,6 +10377,11 @@ a.text-dark:focus {
 	justify-content: center;
 	align-items: center;
 }
+
+.divider-custom.big {
+	height: 6.7rem;
+}
+
 .divider-custom .divider-custom-line {
 	width: 100%;
 	max-width: 7rem;
@@ -10647,4 +10662,77 @@ form .row:first-child .floating-label-form-group {
 
 .skill-bottom-area {
 	margin-top: 5rem;
+}
+
+.portfolio-icon {
+	margin-top: 1.5rem;
+	margin-bottom: 1.5rem;
+}
+
+.img-project {
+	max-width: 80%;
+	height: auto;
+}
+
+.img-modal-project {
+	max-width: 30%;
+	margin-top: 2rem;
+}
+
+.text-align-left {
+	text-align: left;
+}
+
+.project-description-title {
+	margin-top: 0.3rem;
+	margin-bottom: 0.3rem;
+}
+
+.project-video {
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
+.profile-name-ko {
+	font-size: 2rem;
+}
+
+.profile-introduce-description,
+.profile-name-en {
+	font-size: 1rem;
+}
+
+.profile-introduce-title {
+	font-size: 1.5rem;
+}
+
+.profile-introduce-contents {
+	font-size: 1.2rem;
+}
+
+.profile-contact {
+	display: flex;
+	margin-bottom: 1rem;
+}
+
+.profile-contact-contents {
+	margin-left: 1rem;
+	padding-top: 0.3rem;
+	/* margin-bottom: 0.5rem; */
+}
+
+.profile-divider {
+	height: 1rem;
+}
+
+.profile-divider.big {
+	height: 2rem;
+}
+
+.profile-divider.middle {
+	height: 1.3rem;
+}
+
+.profile-divider.small {
+	height: 0.5rem;
 }
