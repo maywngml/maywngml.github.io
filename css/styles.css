@@ -10691,6 +10691,7 @@ form .row:first-child .floating-label-form-group {
 .project-video {
 	margin-top: 2rem;
 	margin-bottom: 2rem;
+	width: 100%;
 }
 
 .profile-name-ko {
