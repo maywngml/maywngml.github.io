@@ -10660,8 +10660,12 @@ form .row:first-child .floating-label-form-group {
 	margin-top: 3rem;
 }
 
-.skill-bottom-area {
-	margin-top: 5rem;
+.skill-mysql-area {
+	margin-top: 9rem;
+}
+
+.skill-react-area {
+	margin-top: 8.7rem;
 }
 
 .portfolio-icon {
