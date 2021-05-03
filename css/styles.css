@@ -122,11 +122,16 @@ address {
 	line-height: inherit;
 }
 
-ol,
 ul,
 dl {
 	margin-top: 0;
 	margin-bottom: 1rem;
+}
+
+ol {
+	padding-left: 1rem;
+	margin-top: 0;
+	margin-bottom: 0;
 }
 
 ol ol,
@@ -10728,6 +10733,10 @@ form .row:first-child .floating-label-form-group {
 
 .profile-divider {
 	height: 1rem;
+}
+
+.profile-divider.very-big {
+	height: 2.8rem;
 }
 
 .profile-divider.big {
