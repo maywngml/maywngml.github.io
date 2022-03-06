@@ -10683,6 +10683,11 @@ form .row:first-child .floating-label-form-group {
 	height: auto;
 }
 
+.img-project-galbum {
+	min-width: 80%;
+	height: auto;
+}
+
 .img-modal-project {
 	max-width: 30%;
 	margin-top: 2rem;
@@ -10749,4 +10754,35 @@ form .row:first-child .floating-label-form-group {
 
 .profile-divider.small {
 	height: 0.5rem;
+}
+
+.galbum-modal-title {
+	margin-bottom: 2rem;
+}
+
+.project-page-title {
+	margin-bottom: 1rem;
+}
+
+.galbum-result {
+	display: block;
+	margin-bottom: 1rem !important;
+}
+
+.galbum-modal-total-content {
+	display: flex;
+	justify-content: space-between;
+}
+
+.galbum-modal-individual-content {
+	width: 32%;
+}
+
+@media (max-width: 987px) {
+	.galbum-modal-total-content {
+		display: block;
+	}
+	.galbum-modal-individual-content {
+		width: 100%;
+	}
 }

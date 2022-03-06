@@ -95,22 +95,24 @@
                         <span class="profile-introduce-description text-lightgray">(2016.02 졸업)</span>
                         <div class="profile-divider"></div>
                         <h4>Work Experience</h4>
+                        <span class="profile-introduce-contents ">골프존</span>
+                        <span class="profile-introduce-description text-lightgray">(2021.09 ~ 재직중)</span>
+                        <br />
                         <span class="profile-introduce-contents ">푸른정보통신 인턴</span>
                         <span class="profile-introduce-description text-lightgray">(2019.01 ~ 2019.02)</span>
                         <br />
                         <span class="profile-introduce-contents ">유안타증권 인턴</span>
                         <span class="profile-introduce-description text-lightgray">(2018.06 ~ 2018.08)</span>
-                        <div class="profile-divider very-big"></div>
+                        <div class="profile-divider"></div>
                         <h4>Certification</h4>
                         <span class="profile-introduce-contents ">정보처리기사</span>
                         <span class="profile-introduce-description text-lightgray">(2019.08)</span>
                         <div class="profile-divider"></div>
                         <h4>Language</h4>
+                        <!-- 오픽도 곧 있으면 만료되는데 빼야 하는가...? -->
                         <span class="profile-introduce-contents ">OPIC IM2</span>
                         <span class="profile-introduce-description text-lightgray">(2020.04)</span>
                         <br />
-                        <span class="profile-introduce-contents ">TOEIC 850</span>
-                        <span class="profile-introduce-description text-lightgray">(2019.10)</span>
                     </div>
                 </div>
                 </div>
@@ -132,6 +134,7 @@
                             <li>ReactJS</li>
                             <li>Javascript</li>
                             <li>HTML</li>
+                            <li>CSS</li>
                             <li>CSS(Sass)</li>
                             <li>React Native</li>
                             <li>Java</li>
@@ -176,6 +179,21 @@
                     <div class="col-md-6 col-lg-4 mb-5">
                         <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
                             <div class="portfolio-item-caption-content text-center text-gray">
+                                <h4>골프존앨범 관리툴</h4>
+                            </div>
+                            <div class="portfolio-icon text-center">
+                            <img class="img-project-galbum" src="assets/img/portfolio/golfzonalbum-no-title.png" alt="s-stt" />
+                            </div>
+                            <div class="portfolio-item-caption-content text-center text-gray">
+                                <h5>골프존앨범 서비스 관련 지표를 
+                                <br />확인하고 관리할 수 있는 웹 플랫폼</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 2-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal2">
+                            <div class="portfolio-item-caption-content text-center text-gray">
                                 <h4>S-STT</h4>
                             </div>
                             <div class="portfolio-icon text-center">
@@ -188,7 +206,7 @@
                         </div>
                     </div>
                     <!-- Portfolio Item 2-->
-                    <div class="col-md-6 col-lg-4 mb-5">
+                    <!-- <div class="col-md-6 col-lg-4 mb-5">
                         <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal2">
                             <div class="portfolio-item-caption-content text-center text-gray">
                                 <h4>Planty</h4>
@@ -201,7 +219,7 @@
                                 <br /> 달력 하이브리드 애플리케이션</h5>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                     <!-- Portfolio Item 3-->
                     <div class="col-md-6 col-lg-4 mb-5">
                         <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal3">
@@ -239,11 +257,101 @@
                     </button>
                     <div class="modal-body">
                         <div class="container">
+                            <div class="galbum-modal-area">
+                                <!-- <div class="col-lg-8"> -->
+                                    <!-- Portfolio Modal - Title-->
+                                    <div class="text-center galbum-modal-title">
+                                        <h3 class="portfolio-modal-title text-secondary mb-0" id="portfolioModal1Label">골프존앨범 관리툴</h3>
+                                    </div>
+                                    <!-- Portfolio Modal - Text-->
+                                    <div class="galbum-modal-total-content">
+                                        <div class="galbum-modal-individual-content">
+                                            <h4 class="project-page-title">홀인원 체크 페이지</h4>
+                                            <h5 class="project-description-title skill-galbum">💻기술스택</h5>
+                                            <span> React.js, HTML, CSS, Javascript</span>
+                                            <h5 class="project-description-title">🕑개발기간</h5>
+                                            <span> 2021.11.11 ~ 2021.11.25</span>
+                                            <h5 class="project-description-title">🎯개발목적</h5>
+                                            <span> 골프장에서의 홀인원 발생 기록을 효율적으로 관리하기 위함</span>
+                                            <h5 class="project-description-title">📖구현기능</h5>
+                                            <ol>
+                                                <li> 조회 기간, 고객 정보, 리스트 사이즈 조건 설정 시 리스트 API 호출 해 해당 조건에 맞는 홀인원 리스트 테이블에 출력</li>
+                                                <li> 초기화 버튼 클릭 시 모든 조건 리셋 후 디폴트 조건에 맞는 홀인원 리스트 테이블에 출력</li>
+                                                <li> 조회 기간 선택하는 달력 컴포넌트 커스터마이징</li>
+                                            </ol>
+                                            <h5 class="project-description-title">💡결과/성과</h5>
+                                            <span class="galbum-result">홀인원 리스트 확인하는 시간 <b>80%</b> 감소</span>
+                                        </div>
+                                        <div class="galbum-modal-individual-content">
+                                            <h4 class="project-page-title">KPI 관리 페이지</h4>
+                                            <h5 class="project-description-title skill-galbum">💻기술스택</h5>
+                                            <span> React.js, HTML, CSS, Javascript</span>
+                                            <h5 class="project-description-title">🕑개발기간</h5>
+                                            <li> google api 연동: 2022.01.06 ~ 2022.01.13</li>
+                                            <li> 내부 api 연동: 2022.01.17 ~ 2022.01.18</li>
+                                            <li> 누적다운로드수 관련 필드 추가: 2022.02.09 ~ 2022.02.14</li>
+                                            <li> 엑셀 파일 저장 기능 구현: 2022.03.02</li>
+                                            <h5 class="project-description-title">🎯개발목적</h5>
+                                            <span> 골프존앨범 KPI를 효율적으로 관리해 서비스의 질을 향상시키기 위함</span>
+                                            <h5 class="project-description-title">📖구현기능</h5>
+                                            <ol>
+                                                <li> MAU, DAU, 영상 재생 횟수, 회원수 관련 데이터들 테이블에 출력</li>
+                                                <ul>
+                                                    <li>초기에는 구글 api를 연동해 구현</li>
+                                                    <li>구글 로그인 필수 도입, 로컬 도메인과 구글 연동 불가능 등의 문제로 인해 내부 api와 연동해 구현</li>
+                                                </ul>
+                                                <li> 테이블의 각 열만 복사가 가능하도록 테이블 구조 조정</li>
+                                                <li> AOS 및 IOS 누적다운로드수 입력 필드 구현</li>
+                                                <li> 테이블에 출력된 데이터들 엑셀 파일에 저장</li>
+                                            </ol>
+                                            <h5 class="project-description-title">💡결과/성과</h5>
+                                            <span class="galbum-result">KPI 기록 담당자 업무 수행 시간 <b>90%</b> 단축</span>
+                                        </div>
+                                        <div class="galbum-modal-individual-content">
+                                            <h4 class="project-page-title">커스텀 라운드 관리 페이지</h4>
+                                            <h5 class="project-description-title skill-galbum">💻기술스택</h5>
+                                            <span> React.js, HTML, CSS, Javascript</span>
+                                            <h5 class="project-description-title">🕑개발기간</h5>
+                                            <span> 2022.03.04 ~ 2022.03.07</span>
+                                            <h5 class="project-description-title">🎯개발목적</h5>
+                                            <span> 신규기능 커스텀 라운드 관련 지표를 효율적으로 관리하기 위함</span>
+                                            <h5 class="project-description-title">📖구현기능</h5>
+                                            <ol>
+                                                <li> 커스텀 라운드 생성 및 생성 유저 수, 평균 생성 개수 데이터 테이블에 출력</li>
+                                                <li> 커스텀 라운드 코멘트 입력 필드 구현</li>
+                                                <li> 테이블에 출력된 데이터들 엑셀 파일에 저장</li>
+                                            </ol>
+                                            <h5 class="project-description-title">💡결과/성과</h5>
+                                            <!-- <span class="galbum-result">홀인원 리스트 확인하는 시간 <b>80%</b> 감소</span> -->
+                                        </div>
+                                    </div>
+                                    <div class="text-center">
+                                        <button class="btn btn-primary text-center mt-2" data-dismiss="modal">
+                                            <i class="fas fa-times fa-fw"></i>
+                                            Close Window
+                                        </button>
+                                    </div> 
+                                <!-- </div> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Modal 2-->
+        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-labelledby="portfolioModal2Label" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                    </button>
+                    <div class="modal-body">
+                        <div class="container">
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
                                     <!-- Portfolio Modal - Title-->
                                     <div class="text-center">
-                                        <h3 class="portfolio-modal-title text-secondary mb-0" id="portfolioModal1Label">S-STT</h3>
+                                        <h3 class="portfolio-modal-title text-secondary mb-0" id="portfolioModal2Label">S-STT</h3>
                                         <!-- Portfolio Modal - Image-->
                                         <iframe class="project-video" width="560" height="315" src="https://www.youtube.com/embed/7ngRGio0SCM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                     </div>
@@ -276,7 +384,7 @@
                                                     </ul>
                                                 <li>컴포넌트의 리렌더링을 최소화한다.</li>
                                                     <ul>
-                                                        <li>하나의 페이지 내 컴포넌트를 세분화하여 생성</li>
+                                                        <!-- <li>하나의 페이지 내 컴포넌트를 세분화하여 생성</li> -->
                                                         <li>전역 상태 관리할 때 state와 dispatch를 분리</li>
                                                     </ul>
                                                 <li>코드의 중복을 최소화하고 복잡도를 줄인다.</li>
@@ -301,7 +409,7 @@
                 </div>
             </div>
         </div>
-        <!-- Portfolio Modal 2-->
+        <!-- Portfolio Modal 2
         <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-labelledby="portfolioModal2Label" aria-hidden="true">
             <div class="modal-dialog modal-xl" role="document">
                 <div class="modal-content">
@@ -312,13 +420,13 @@
                         <div class="container">
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
+                                    Portfolio Modal - Title
                                     <div class="text-center">
                                         <h3 class="portfolio-modal-title text-secondary mb-0" id="portfolioModal2Label">Planty</h3>
-                                        <!-- Portfolio Modal - Image-->
+                                        Portfolio Modal - Image
                                         <iframe class="project-video" width="560" height="315" src="https://www.youtube.com/embed/617o-Lu00dg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                     </div>
-                                    <!-- Portfolio Modal - Text-->
+                                    Portfolio Modal - Text
                                     <div class="row">
                                         <div class="col-lg-modal">
                                             <h5 class="project-description-title">🕑개발기간</h5>
@@ -366,7 +474,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <!-- Portfolio Modal 3-->
         <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-labelledby="portfolioModal3Label" aria-hidden="true">
             <div class="modal-dialog modal-xl" role="document">
