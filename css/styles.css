@@ -5821,7 +5821,7 @@ a.close.disabled {
 .modal-body {
 	position: relative;
 	flex: 1 1 auto;
-	padding: 4rem 1rem;
+	padding: 4rem 1rem 2rem;
 }
 
 .modal-footer {
@@ -10361,8 +10361,10 @@ a.text-dark:focus {
 	}
 }
 .page-section {
-	padding: 6rem 0;
+	height: 80vh;
+	padding-top: 4rem;
 }
+
 .page-section .page-section-heading {
 	font-size: 2.25rem;
 	line-height: 2rem;
@@ -10384,7 +10386,7 @@ a.text-dark:focus {
 }
 
 .divider-custom.big {
-	height: 6.7rem;
+	height: 10rem;
 }
 
 .divider-custom .divider-custom-line {
@@ -10504,6 +10506,7 @@ a.text-dark:focus {
 	}
 }
 .masthead {
+	height: 100vh;
 	padding-top: calc(6rem + 74px);
 	padding-bottom: 6rem;
 }
@@ -10776,6 +10779,14 @@ form .row:first-child .floating-label-form-group {
 
 .galbum-modal-individual-content {
 	width: 32%;
+}
+
+.download-period {
+	margin-left: 25px;
+}
+
+button.close-modal {
+	margin-top: 2rem !important;
 }
 
 @media (max-width: 987px) {
