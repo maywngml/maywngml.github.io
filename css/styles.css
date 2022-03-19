@@ -10361,7 +10361,7 @@ a.text-dark:focus {
 	}
 }
 .page-section {
-	height: 80vh;
+	height: calc(100vh - 79px);
 	padding-top: 4rem;
 }
 
