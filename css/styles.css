@@ -7983,6 +7983,31 @@ button.bg-dark:focus {
 	margin-left: 3rem !important;
 }
 
+.mt-5,
+.my-5 {
+	margin-top: 3rem !important;
+}
+
+.mr-6,
+.mx-6 {
+	margin-right: 5rem !important;
+}
+
+.mb-6,
+.my-6 {
+	margin-bottom: 5rem !important;
+}
+
+.ml-6,
+.mx-6 {
+	margin-left: 5rem !important;
+}
+
+.mt-6,
+.my-6 {
+	margin-top: 5rem !important;
+}
+
 .p-0 {
 	padding: 0 !important;
 }
@@ -10681,13 +10706,17 @@ form .row:first-child .floating-label-form-group {
 	margin-bottom: 1.5rem;
 }
 
+.portfolio-golfzon-icon {
+	margin-bottom: 4.7rem;
+}
+
 .img-project {
 	max-width: 80%;
 	height: auto;
 }
 
-.img-project-galbum {
-	min-width: 80%;
+.img-project-golfzon {
+	width: 320px;
 	height: auto;
 }
 
@@ -10759,6 +10788,11 @@ form .row:first-child .floating-label-form-group {
 	height: 0.5rem;
 }
 
+.profile-divider.education {
+	height: 1.6rem;
+}
+
+
 .galbum-modal-title {
 	margin-bottom: 2rem;
 }
@@ -10774,11 +10808,17 @@ form .row:first-child .floating-label-form-group {
 
 .galbum-modal-total-content {
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
 }
 
 .galbum-modal-individual-content {
 	width: 32%;
+}
+
+.project-description-event-title {
+	display: block;
+	margin-top: 1.7rem;
+	margin-bottom: 0.3rem;
 }
 
 .download-period {
